@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.flya.system.mapper.PzcActivityConnIntroMapper">
+
+    <resultMap type="top.flya.system.domain.PzcActivityConnIntro" id="PzcActivityConnIntroResult">
+        <result property="activityConnIntroId" column="activity_conn_intro_id"/>
+        <result property="activityId" column="activity_id"/>
+        <result property="introId" column="intro_id"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="state" column="state"/>
+    </resultMap>
+
+
+</mapper>

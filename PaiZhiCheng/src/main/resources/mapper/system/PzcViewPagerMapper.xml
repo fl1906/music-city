@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.flya.system.mapper.PzcViewPagerMapper">
+
+    <resultMap type="top.flya.system.domain.PzcViewPager" id="PzcViewPagerResult">
+        <result property="viewPagerId" column="view_pager_id"/>
+        <result property="name" column="name"/>
+        <result property="imageUrl" column="image_url"/>
+        <result property="linkUrl" column="link_url"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="state" column="state"/>
+        <result property="activityId" column="activity_id"/>
+    </resultMap>
+
+
+</mapper>

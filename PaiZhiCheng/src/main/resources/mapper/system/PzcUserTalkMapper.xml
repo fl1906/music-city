@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.flya.system.mapper.PzcUserTalkMapper">
+
+    <resultMap type="top.flya.system.domain.vo.PzcUserTalkVo" id="PzcUserTalkResult">
+        <result property="talkId" column="talk_id"/>
+        <result property="fromUserId" column="from_user_id"/>
+        <result property="toUserId" column="to_user_id"/>
+        <result property="message" column="message"/>
+        <result property="messageStatus" column="message_status"/>
+        <result property="messageType" column="message_type"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="groupId" column="group_id"/>
+<!--        <result property="notReadCount" column="not_read_count"/>-->
+    </resultMap>
+
+
+
+    <select id="selectVoPageV1" resultMap="PzcUserTalkResult" > <!-- 思路： 这里先 再如一个 对方用户的参数-->
+
+        SELECT talk_id,from_user_id, to_user_id, message, message_status, message_type, create_time,update_time,group_id
+        FROM pzc_user_talk
+        WHERE ((from_user_id = #{userId} and to_user_id = #{otherUser})
+        OR (to_user_id = #{userId} and from_user_id = #{otherUser})) and user_id = #{userId}
+        ORDER BY create_time DESC LIMIT 1
+    </select>
+
+    <select id="selectNotReadCount" resultType="java.lang.Integer">
+        select count(1) from pzc_user_talk where (from_user_id = #{fromUserId} and to_user_id = #{toUserId}) and user_id = #{userId} and message_status = 0
+    </select>
+    <select id="selectVoPageV2" resultType="top.flya.system.domain.vo.PzcUserTalkVo">
+        select talk_id,from_user_id,to_user_id,message,message_status,message_type,create_time,update_time,group_id from pzc_user_talk where
+               ((from_user_id = #{bo.fromUserId} and to_user_id = #{bo.toUserId}) or (from_user_id = #{bo.toUserId} and to_user_id = #{bo.fromUserId})) and user_id = #{bo.userId}
+               order by update_time desc
+    </select>
+    <select id="selectMyTalkUserIds" resultType="java.lang.Long">
+        select distinct from_user_id from pzc_user_talk where to_user_id = #{my} and user_id = #{my}
+    </select>
+    <select id="selectMyTalkUserIdsV2" resultType="java.lang.Long">
+        select distinct to_user_id from pzc_user_talk where from_user_id = #{my} and user_id = #{my}
+    </select>
+
+
+    <!--    <select id="selectVoPageV1" resultMap="PzcUserTalkResult">-->
+<!--        SELECT t1.talk_id, t1.from_user_id, t1.to_user_id, t1.message, t1.message_status, t1.message_type, t1.create_time, t1.update_time,-->
+<!--               (SELECT COUNT(t2.talk_id) FROM pzc_user_talk t2 WHERE t2.from_user_id = #{userId} AND t2.message_status = 0 GROUP BY t2.to_user_id ) AS not_read_count-->
+<!--        FROM pzc_user_talk t1-->
+<!--        WHERE t1.from_user_id = #{userId}-->
+<!--        GROUP BY t1.to_user_id-->
+<!--        ORDER BY t1.create_time DESC-->
+<!--    </select>-->
+</mapper>

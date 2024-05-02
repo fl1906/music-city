@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.flya.system.mapper.PzcActivityConnArtistMapper">
+
+    <resultMap type="top.flya.system.domain.PzcActivityConnArtist" id="PzcActivityConnArtistResult">
+        <result property="activityConnArtistId" column="activity_conn_artist_id"/>
+        <result property="activityId" column="activity_id"/>
+        <result property="artistId" column="artist_id"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="state" column="state"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.flya.system.mapper.PzcUserMapper">
+
+    <resultMap type="top.flya.system.domain.PzcUser" id="PzcUserResult">
+        <result property="userId" column="user_id"/>
+        <result property="openid" column="openid"/>
+        <result property="money" column="money"/>
+        <result property="userLevel" column="user_level"/>
+        <result property="integration" column="integration"/>
+        <result property="integrationNow" column="integration_now"/>
+        <result property="realname" column="realname"/>
+        <result property="nickname" column="nickname"/>
+        <result property="sex" column="sex"/>
+        <result property="phone" column="phone"/>
+        <result property="avatar" column="avatar"/>
+        <result property="address" column="address"/>
+        <result property="intro" column="intro"/>
+        <result property="age" column="age"/>
+        <result property="constellation" column="constellation"/>
+        <result property="mbti" column="mbti"/>
+        <result property="hobby" column="hobby"/>
+        <result property="school" column="school"/>
+        <result property="occupation" column="occupation"/>
+        <result property="createTime" column="create_time"/>
+        <result property="musicStyle" column="music_style"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="state" column="state"/>
+    </resultMap>
+
+
+    <update id="updateMoney">
+        update pzc_user set money = #{bo.money} where user_id = #{bo.userId}
+    </update>
+
+
+</mapper>

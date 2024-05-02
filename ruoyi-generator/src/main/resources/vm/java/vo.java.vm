@@ -1,0 +1,50 @@
+package ${packageName}.domain.vo;
+
+#foreach ($import in $importList)
+import ${import};
+#end
+import com.alibaba.excel.annotation.ExcelIgnoreUnannotated;
+import com.alibaba.excel.annotation.ExcelProperty;
+import top.flya.common.annotation.ExcelDictFormat;
+import top.flya.common.convert.ExcelDictConvert;
+import lombok.Data;
+
+
+/**
+ * ${functionName}视图对象 ${tableName}
+ *
+ * @author ${author}
+ * @date ${datetime}
+ */
+@Data
+@ExcelIgnoreUnannotated
+public class ${ClassName}Vo {
+
+    private static final long serialVersionUID = 1L;
+
+#foreach ($column in $columns)
+#if($column.list)
+    /**
+     * $column.columnComment
+     */
+#set($parentheseIndex=$column.columnComment.indexOf("（"))
+#if($parentheseIndex != -1)
+#set($comment=$column.columnComment.substring(0, $parentheseIndex))
+#else
+#set($comment=$column.columnComment)
+#end
+#if(${column.dictType} && ${column.dictType} != '')
+    @ExcelProperty(value = "${comment}", converter = ExcelDictConvert.class)
+    @ExcelDictFormat(dictType = "${column.dictType}")
+#elseif($parentheseIndex != -1)
+    @ExcelProperty(value = "${comment}", converter = ExcelDictConvert.class)
+    @ExcelDictFormat(readConverterExp = "$column.readConverterExp()")
+#else
+    @ExcelProperty(value = "${comment}")
+#end
+    private $column.javaType $column.javaField;
+
+#end
+#end
+
+}
