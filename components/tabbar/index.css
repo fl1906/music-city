@@ -1,0 +1,44 @@
+.tabbar {
+	position: fixed;
+	width: 100%;
+	bottom: -20rpx;
+}
+
+.tabbar-img {
+	width: 100%;
+	height: 250rpx;
+}
+
+.tabbar-items {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	position: absolute;
+	top: 110rpx;
+	font-size: 24rpx;
+	color: #7F7C8D;
+}
+
+.tabbar-item {
+	display: flex;
+	gap: 10rpx;
+	flex-direction: column;
+	align-items: center;
+	flex: 1;
+}
+
+.tabbar-item .icon {
+	width: 59rpx;
+	height: 57rpx;
+}
+
+.tabbar-item .mid-icon {
+	position: relative;
+	top: -85rpx;
+	width: 149rpx;
+	height: 149rpx;
+}
+
+.tabbar-item .tabbar-item-text.active {
+	color: #FFF533;
+}

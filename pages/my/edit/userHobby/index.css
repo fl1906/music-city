@@ -1,0 +1,53 @@
+.box {
+	width: 100%;
+	height: 100%;
+	min-height: 100vh;
+	background: #150C24;
+}
+
+.box .value {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 680rpx;
+	height: 83rpx;
+	border: 2px solid #656367;
+	border-radius: 10rpx;
+	padding: 0 29rpx;
+	margin: 66rpx 37rpx 26rpx 33rpx;
+	color: #FFF;
+}
+
+.box .value input {
+	color: #FFF;
+	flex: 1;
+	margin-right: 20rpx;
+}
+
+
+.box .submit {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	bottom: 115rpx;
+	left: 37rpx;
+	width: 676rpx;
+	height: 106rpx;
+	background: #FFF533;
+	border-radius: 53rpx;
+	font-size: 36rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #272233;
+}
+
+.box .boxs {
+}
+
+.box .boxs .item {
+	text-align: center;
+	color: aliceblue;
+	margin: 30rpx;
+	margin-bottom: 40rpx;
+}

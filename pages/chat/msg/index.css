@@ -1,0 +1,246 @@
+.msg {
+	width: 100%;
+	height: 100%;
+	min-height: 100vh;
+	background: #150C24;
+}
+
+.msg .top {
+	width: 100%;
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
+	border-radius: 0rpx 0rpx 30rpx 30rpx;
+	margin-top: 65rpx;
+	padding-bottom: 23rpx;
+}
+
+.msg .info,
+.msg .photos {
+	margin-left: 36rpx;
+}
+
+.msg .info {
+	gap: 21rpx;
+}
+
+.msg .info .avatar {
+	width: 129rpx;
+	height: 129rpx;
+	border-radius: 50%;
+}
+
+.msg .info .user-info .name {
+	font-size: 36rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+
+.msg .info .user-info .private {
+	gap: 20rpx;
+	margin-top: 21rpx;
+	margin-bottom: 13rpx;
+}
+
+.msg .info .user-info .private .item {
+	min-width: 79rpx;
+	max-width: 200rpx;
+	height: 37rpx;
+	padding: 10rpx;
+	background: #372F44;
+	text-align: center;
+	border-radius: 18rpx;
+}
+
+.msg .info .user-info .private .level {
+	font-size: 24rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFF533;
+	justify-content: center;
+}
+
+.msg .info .user-info .private .age,
+.msg .info .user-info .private .position {
+	font-size: 24rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+	justify-content: center;
+}
+
+.msg .info .user-info .private .age image {
+	width: 14rpx;
+	height: 25rpx;
+	margin-right: 9rpx;
+}
+
+
+.msg .info .user-info .desc {
+	font-size: 20rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #A7A7A7;
+}
+
+.msg .photos {
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 47rpx;
+}
+
+.msg .photos image {
+	width: 176rpx;
+	height: 176rpx;
+	border-radius: 20rpx;
+}
+
+.msg .photos .title {
+	font-size: 28rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FFFFFF;
+	margin-bottom: 23rpx;
+}
+
+.msg .photos .items {
+	width: 100%;
+	overflow: auto;
+	gap: 23rpx;
+}
+
+.msg .success {
+	justify-content: center;
+	width: 570rpx;
+	height: 60rpx;
+	background: #272233;
+	border-radius: 30rpx;
+	font-size: 22rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #9A999B;
+	margin-left: 91rpx;
+	margin-top: 45rpx;
+}
+
+.chat-main {
+	height: 630rpx;
+}
+
+.chat-main .chat-item .avatar {
+	width: 82rpx;
+	height: 82rpx;
+	border-radius: 50%;
+}
+
+.chat-main .chat-item {
+	margin-top: 49rpx;
+	font-size: 28rpx;
+	color: #FFFFFF;
+}
+
+.chat-main .chat-item .time {
+	text-align: center;
+	font-size: 24rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #9A999B;
+	margin-bottom: 35rpx;
+}
+
+
+.chat-main .chat-item .content-wrapper-left {
+	margin-left: 28rpx;
+	gap: 24rpx;
+}
+
+.chat-main .chat-item .content-wrapper-left .chat-content-left {
+	justify-content: center;
+	min-width: 196rpx;
+	height: 70rpx;
+	background: #372F44;
+	border-radius: 0rpx 35rpx 35rpx 39rpx;
+}
+
+
+.chat-main .chat-item .content-wrapper-right {
+	justify-content: flex-end;
+	gap: 24rpx;
+	margin-right: 28rpx;
+}
+
+.chat-main .chat-item .content-wrapper-right .chat-content-right {
+	justify-content: center;
+	max-width: 400rpx;
+	word-break: break-all;
+	flex-wrap: wrap;
+	padding: 20rpx;
+	background: #372F44;
+	border-radius: 35rpx 0rpx 35rpx 39rpx;
+}
+
+.fix-bottom {
+	z-index: 999;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	min-height: 256rpx;
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.03) 100%);
+	border-radius: 30rpx 30rpx 0rpx 0rpx;
+}
+
+.fix-bottom .bar {
+	margin-top: 58rpx;
+}
+
+.fix-bottom .bar input {
+	margin-left: 40rpx;
+	width: 490rpx;
+	color: #FFF;
+	padding: 0 20rpx;
+	height: 80rpx;
+	background: #150C24;
+	border-radius: 40rpx;
+}
+
+.fix-bottom .bar .emo {
+	margin-left: 30rpx;
+	width: 42rpx;
+	height: 41rpx;
+}
+
+.fix-bottom .bar .add-icon {
+	width: 41rpx;
+	height: 41rpx;
+	margin-left: 37rpx;
+}
+
+.fix-bottom .btns {
+	margin-top: 36rpx;
+	margin-left: 49rpx;
+	gap: 58rpx;
+	margin-bottom: 85rpx;
+}
+
+.fix-bottom .btns .item {
+	text-align: center;
+	font-size: 24rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+.fix-bottom .btns .item image {
+	width: 120rpx;
+	height: 120rpx;
+	margin-bottom: 21rpx;
+}
+
+.fix-bottom .emoji {
+	overflow: auto;
+	height: 220rpx;
+	flex-wrap: wrap;
+	margin-top: 36rpx;
+	margin-left: 49rpx;
+	gap: 58rpx;
+	margin-bottom: 40rpx;
+}

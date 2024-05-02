@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@hyoga/uni-socket.io": "^1.0.1"
+  }
+}

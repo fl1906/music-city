@@ -1,0 +1,20 @@
+.tabs {
+	gap: 59rpx;
+}
+
+.tabs .tab-item {
+	font-size: 28rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+.tabs .tab-item.active {
+	font-size: 30rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FFF533;
+	background: linear-gradient(112deg, #ACFBEB 0%, #FFFEB6 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

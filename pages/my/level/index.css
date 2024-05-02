@@ -1,0 +1,171 @@
+.level {
+	width: 100%;
+	height: 100vh;
+	background: #150C24;
+	padding: 60rpx 36rpx;
+}
+
+.user {
+	gap: 17rpx;
+	margin-left: 24rpx;
+}
+
+.user .avatar {
+	width: 70rpx;
+	height: 70rpx;
+	border-radius: 50%;
+}
+
+.user .info {
+	flex-direction: column;
+	gap: 14rpx;
+	align-items: flex-start;
+}
+
+.user .info .title {
+	font-size: 30rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+
+.user .info .tip {
+	font-size: 24rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+	opacity: 0.59;
+}
+
+.level-bg>image {
+	width: 100%;
+	height: 778rpx;
+}
+
+.level-bg .point {
+	position: absolute;
+	top: 150rpx;
+	left: 57rpx;
+}
+
+.level-bg .point .lv1-gou {
+	width: 22rpx;
+	height: 22rpx;
+	margin-right: 7rpx;
+}
+
+.level-bg .point .line {
+	color: #A9D1DC;
+	margin-left: 7rpx;
+	margin-right: 9rpx;
+}
+
+.level-bg .point .range {
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+	font-size: 20rpx;
+}
+
+.level-bg .point .current {
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #A9D1DC;
+	font-size: 22rpx;
+}
+
+.level-bg .cancel {
+	position: absolute;
+	gap: 28rpx;
+	flex-direction: column;
+	top: 330rpx;
+	left: 137rpx;
+}
+
+.level-bg .cancel .title {
+	color: #27A6A7;
+	gap: 19rpx;
+}
+
+.level-bg .cancel .title image {
+	width: 35rpx;
+	height: 22rpx;
+}
+
+
+.level-bg .cancel .tip {
+	font-size: 24rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #ACB2B7;
+}
+
+.level-bg .counts {
+	position: absolute;
+	gap: 20rpx;
+	bottom: 40rpx;
+	left: 12rpx;
+}
+
+.level-bg .count {
+	width: 207rpx;
+	height: 268rpx;
+	border-radius: 30rpx;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #17262F;
+}
+
+.level-bg .count .pair {
+	width: 65rpx;
+	height: 54rpx;
+}
+
+.level-bg .count>text {
+	height: 23rpx;
+	font-size: 24rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #28AFB4;
+	margin-top: 31rpx;
+	margin-bottom: 16rpx;
+}
+
+.level-bg .count .count-str {
+	color: #28AFB4;
+	font-size: 40rpx;
+}
+
+.level-bg .count .count-str text {
+	font-size: 48rpx;
+}
+
+.point-cate {
+	gap: 104rpx;
+	margin-left: 28rpx;
+	margin-top: 40rpx;
+}
+
+.point-cate .lv.active .title{
+	color: #239DA2;
+}
+
+.point-cate .lv.active .pointer{
+	background: #239DA2;
+}
+
+.point-cate .lv {
+	flex-direction: column;
+	gap: 27rpx;
+	font-size: 24rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #ACB2B7;
+}
+
+.point-cate .lv .pointer{
+	width: 10rpx;
+	height: 10rpx;
+	background: #ACB2B7;
+	border-radius: 50%;
+}

@@ -1,0 +1,9 @@
+{
+    "id": "m-emoji",
+    "name": "表情库",
+    "version": "2.0.0",
+    "description": "单纯的js引入就可以用",
+    "keywords": [
+        "表情"
+    ]
+}

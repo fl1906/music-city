@@ -1,0 +1,41 @@
+.ac-time .info {
+	margin-left: 13rpx;
+}
+
+.ac-time .date {
+	gap: 18rpx;
+	margin-top: 40rpx;
+}
+
+.ac-time .date .input {
+	text-align: center;
+	width: 90rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+	border: 2px solid #C6C6C6;
+	border-radius: 10rpx;
+	padding-left: 10rpx;
+}
+
+.ac-time .select-time {
+	margin-top: 26rpx;
+	margin-bottom: 23rpx;
+}
+
+.ac-time .select-time .input {
+	width: 197rpx;
+	height: 70rpx;
+	border: 2px solid #C6C6C6;
+	border-radius: 10rpx;
+	justify-content: center;
+	margin-right: 24rpx;
+}
+
+.ac-time .select-time text {
+	text-align: center;
+	width: 75rpx;
+	height: 70rpx;
+	line-height: 60rpx;
+	border: 2px solid #C6C6C6;
+	border-radius: 10rpx;
+}

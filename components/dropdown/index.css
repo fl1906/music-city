@@ -1,0 +1,50 @@
+.dropdown {
+	position: inherit;
+}
+
+.dropdown .title {
+	font-size: 32rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FFFFFF;
+	gap: 19rpx;
+}
+
+.dropdown .title image {
+	width: 26rpx;
+	height: 17rpx;
+}
+
+.dropdown .active {
+	font-size: 28rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FFFFFF;
+	background: linear-gradient(112deg, #ACFBEB 0%, #FFFEB6 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.dropdown .mask {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 747rpx;
+	background: #0A0612;
+	margin-right: -100rpx;
+	opacity: 0.5;
+	z-index: 999;
+}
+
+.dropdown .select-bar {
+	align-items: flex-start;
+	position: absolute;
+	left: 0;
+	overflow: auto;
+	width: 749rpx;
+	background: #150C24;
+	padding: 30rpx;
+	z-index: 999;
+	font-size: 28rpx;
+	color: #FFF;
+}

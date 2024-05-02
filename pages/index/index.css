@@ -1,0 +1,164 @@
+.content {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	background-color: #140B2A;
+}
+
+.wrap {
+	margin-left: 34rpx;
+	font-size: 42rpx;
+	color: white;
+}
+
+.bg-img {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	min-height: 100vh;
+	top: 0;
+	left: 0;
+}
+
+.search-bar {
+	margin: 42rpx 0 0 37rpx;
+}
+
+.message-icon {
+	position: absolute;
+	width: 35rpx;
+	height: 42rpx;
+	right: 41rpx;
+}
+
+.no-read {
+	position: absolute;
+	top: 46rpx;
+	right: 68rpx;
+	background: red;
+	color: #FFF;
+	border-radius: 50%;
+	padding: 4rpx;
+	text-align: center;
+}
+
+.top-banner {
+	margin: 47rpx 34rpx 38rpx 37rpx;
+}
+
+.top-banner-img {
+	width: 679rpx;
+	height: 371rpx;
+}
+
+.cate-bar {
+	display: flex;
+	align-items: center;
+	gap: 34rpx;
+	margin: 0 32rpx 43rpx 29rpx;
+}
+
+.music-bar,
+.party-bar {
+	width: 327rpx;
+	height: 428rpx;
+}
+
+.music-bar>image,
+.party-bar>image {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.bar-context {
+	width: 100%;
+	height: 100%;
+	padding: 49rpx 36rpx 44rpx 31rpx;
+}
+
+.bar-context .music-text-img {
+	width: 187rpx;
+	height: 45rpx;
+	margin-left: 9rpx;
+}
+
+.bar-content-title {
+	width: 167rpx;
+	height: 54rpx;
+	line-height: 35rpx;
+	margin-left: 5px;
+	font-size: 24rpx;
+	color: #FFFFFE;
+	margin-top: 22rpx;
+}
+
+.bar-context .music-text-brand {
+	width: 260rpx;
+	height: 190rpx;
+	margin-top: 30rpx;
+}
+
+.bar-context .party-text-img {
+	width: 140rpx;
+	height: 45rpx;
+	margin-left: 9rpx;
+}
+
+.bar-context .party-text-brand {
+	width: 254rpx;
+	height: 183rpx;
+	margin-top: 30rpx;
+}
+
+.mini-bar {
+	display: flex;
+	align-items: center;
+	gap: 10rpx;
+	margin: 0 42rpx 300rpx 24rpx;
+}
+
+.mini-bar .bar-bg {
+	position: absolute;
+	width: 341rpx;
+	height: 118rpx;
+}
+
+.mini-bar .shop-bar-img {
+	position: relative;
+	width: 117rpx;
+	height: 108rpx;
+}
+
+.mini-bar .special-bar-img {
+	position: relative;
+	width: 112rpx;
+	height: 103rpx;
+}
+
+.special-bar,
+.shop-bar {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.minbar-content {
+	display: flex;
+	flex-direction: column;
+	gap: 12rpx;
+	margin-left: 28rpx;
+}
+
+.minbar-content .title {
+	font-size: 28rpx;
+	color: #fff;
+}
+
+.minbar-content .text {
+	font-size: 19rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #DDD9D4;
+}

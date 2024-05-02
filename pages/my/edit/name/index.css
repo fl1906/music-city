@@ -1,0 +1,61 @@
+.name {
+	width: 100%;
+	height: 100%;
+	min-height: 100vh;
+	background: #150C24;
+}
+
+.name .tip {
+	width: 258rpx;
+	height: 25rpx;
+	font-size: 26rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+	margin: 66rpx 0 33rpx 62rpx;
+}
+
+.name .value {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 680rpx;
+	height: 83rpx;
+	border: 2px solid #656367;
+	border-radius: 10rpx;
+	padding: 0 29rpx;
+	margin: 0 37rpx 26rpx 33rpx;
+}
+
+.name .value input {
+	color: #FFF;
+	flex: 1;
+	margin-right: 20rpx;
+}
+
+.name .limit {
+	width: 531rpx;
+	height: 27rpx;
+	font-size: 26rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #929097;
+	margin-left: 62rpx;
+}
+
+.name .submit {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	bottom: 115rpx;
+	left: 37rpx;
+	width: 676rpx;
+	height: 106rpx;
+	background: #FFF533;
+	border-radius: 53rpx;
+	font-size: 36rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #272233;
+}

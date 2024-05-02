@@ -1,0 +1,25 @@
+.search {
+	position: relative;
+	display: flex;
+	align-items: center;
+	height: 77rpx;
+}
+
+.search-bg {
+	position: absolute;
+	min-width: 599rpx;
+	width: 100%;
+	height: 77rpx;
+}
+
+.search-icon {
+	width: 27rpx;
+	height: 28rpx;
+	margin-left: 52rpx;
+}
+
+
+.search-input {
+	color: #FFF;
+	padding-left: 20rpx;
+}

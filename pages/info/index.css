@@ -1,0 +1,190 @@
+.info {
+	width: 100%;
+	height: 100%;
+	min-height: 100vh;
+}
+
+.bg {
+	position: absolute;
+	width: 100%;
+	height: 1007rpx;
+	top: 0;
+	left: 0;
+}
+
+.tuku {
+	overflow: auto;
+	margin-top: 587rpx;
+	margin-left: 48rpx;
+	gap: 15rpx;
+}
+
+.tuku .item image {
+	width: 99rpx;
+	border-radius: 10rpx;
+	height: 99rpx;
+}
+
+
+.tuku .item image.active {
+	border: 2px solid #FFF533;
+}
+
+.content {
+	width: 100%;
+	height: 1508rpx;
+	background: #150C24;
+	border-radius: 50rpx 50rpx 0rpx 0rpx;
+	padding: 37rpx 0 80rpx 40rpx;
+}
+
+.content .title {
+	font-size: 34rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FFFFFF;
+	margin-bottom: 62rpx;
+}
+
+.content .title text{
+	text-decoration: underline;
+	color: #FFF533;
+}
+
+.content .ac-info {
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 50rpx;
+}
+
+.content .ac-info .item {
+	color: #FFFFFF;
+	font-size: 28rpx;
+}
+
+.content .ac-info .item .name {
+	width: 208rpx;
+	font-size: 26rpx;
+	color: #BDBDBD;
+}
+
+.content .ac-info .item .fee {
+	gap: 25rpx;
+}
+
+.content .ac-info .item .paibi {
+	width: 63rpx;
+	height: 63rpx;
+}
+
+.content .tabs {
+	margin-top: 52rpx;
+}
+
+.content .tabs .tag {
+	width: 681rpx;
+	border-radius: 30rpx;
+	margin: 40rpx 0;
+	height: 550rpx;
+}
+
+>>>.u-cell__value {
+	color: #FFF !important;
+}
+
+>>>.u-cell {
+	color: #FFF !important;
+}
+
+.content .tabs .ac-info {
+	margin-top: 49rpx;
+}
+
+.content .btns {
+	gap: 82rpx;
+	margin-top: 98rpx;
+	margin-bottom: 30rpx;
+}
+
+.content .btns .share {
+	width: 203rpx;
+	height: 98rpx;
+	border: 2px solid #FFF533;
+	background: transparent;
+	border-radius: 49rpx;
+	font-size: 32rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFF533;
+}
+
+.content .btns .apply {
+	width: 389rpx;
+	height: 97rpx;
+    line-height: 97rpx;
+	background: #FFF533;
+	border-radius: 49rpx;
+	font-size: 32rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #272233;
+	margin-right: 36rpx;
+}
+
+.content .btns image {
+	width: 34rpx;
+	height: 34rpx;
+}
+
+.content .btns.trans {
+	gap: 0;
+}
+
+.content .btns .transfer {
+	width: 100rpx;
+	flex-direction: column;
+	gap: 9rpx;
+	margin-right: 80rpx;
+	font-size: 20rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+.content .btns .cancel {
+	width: 240rpx;
+	height: 98rpx;
+	line-height: 98rpx;
+	background: #EEEEEE;
+	border-radius: 49rpx;
+	font-size: 32rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #272233;
+	margin-right: 55rpx;
+}
+
+.content .btns .update {
+	width: 389rpx;
+	height: 97rpx;
+	line-height: 97rpx;
+	background: #FFF533;
+	border-radius: 49rpx;
+	font-size: 32rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #272233;
+	margin-right: 36rpx;
+}
+
+.content .agree {
+	height: 97rpx;
+	font-size: 32rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #272233;
+	background: #FFF533;
+	border-radius: 49rpx;
+	margin-top: 76rpx;
+	margin-right: 37rpx;
+}

@@ -1,0 +1,497 @@
+.mate {
+	width: 100%;
+	height: 100%;
+	min-height: 100vh;
+	background: #150C24;
+}
+
+.mate .map {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+}
+
+.mate .cover {
+	position: absolute;
+	margin: 0 31rpx 0 29rpx;
+	bottom: 45rpx;
+}
+
+.mate .origin {
+	position: absolute;
+	width: 70rpx;
+	height: 70rpx;
+	right: 40rpx;
+	top: 500rpx;
+}
+
+.mate .cover .card-bg {
+	width: 690rpx;
+	height: 171rpx;
+}
+
+.mate .cover .avatars {
+	position: absolute;
+	right: 60rpx;
+	top: 60rpx;
+	align-items: flex-end;
+}
+
+.mate .cover .avatars .avatar {
+	width: 91rpx;
+	height: 91rpx;
+	border-radius: 50%;
+}
+
+.mate .cover .avatars .avatar.first {
+	margin-right: -25rpx;
+	z-index: 1;
+}
+
+.mate .cover .avatars .avatar.second {
+	margin-left: -20rpx;
+	z-index: 2;
+}
+
+.mate .cover .avatars .link-icon-yellow {
+	width: 39rpx;
+	height: 29rpx;
+	z-index: 3;
+}
+
+.mate .cover .card {
+	position: relative;
+	z-index: 999;
+}
+
+.mate .cover .card .bar {
+	position: relative;
+	box-sizing: border-box;
+	width: 680rpx;
+	padding: 29rpx;
+	background: #332F30;
+	border-radius: 0 0 30rpx 30rpx;
+	padding-bottom: 33rpx;
+}
+
+.mate .cover .card .bar .title {
+	position: relative;
+	font-size: 36rpx;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.mate .cover .card .bar .cancel {
+	position: absolute;
+	top: 27rpx;
+	right: 35rpx;
+	width: 185rpx;
+	height: 84rpx;
+	background: #332D41;
+	border-radius: 30rpx;
+	font-size: 24rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFF536;
+	line-height: 84rpx;
+}
+
+.mate .cover .card .bar .sub-info {
+	font-size: 24rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+	margin-top: 14rpx;
+}
+
+.mate .cover .card .bar .sub-info .split-line {
+	width: 2rpx;
+	height: 17rpx;
+	margin: 0 18rpx;
+}
+
+.mate .cover .card .bar .sub-info .paibi .paibi-logo {
+	width: 39rpx;
+	height: 39rpx;
+}
+
+.mate .cover .card .bar .sub-info .paibi .tag {
+	margin: 0 8rpx;
+}
+
+.mate .cover .card .bar .sub-info .paibi .count {
+	flex: 1;
+}
+
+.mate .cover .card .bar .handle {
+	margin-top: 27rpx;
+	justify-content: space-between;
+}
+
+.mate .cover .card .bar .handle .left {
+	position: relative;
+}
+
+.mate .cover .card .bar .handle .left .avatar {
+	width: 92rpx;
+	height: 92rpx;
+	border-radius: 50%;
+}
+
+.mate .cover .card .bar .handle .left .info {
+	margin-left: 15rpx;
+}
+
+.mate .cover .card .bar .handle .left .info .title {
+	font-size: 30rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+
+
+.mate .cover .card .bar .handle .left .info .desc {
+	font-size: 20rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #DCDCDC;
+	margin-top: 23rpx;
+}
+
+.mate .cover .card .bar .handle .left .info .desc .msg-icon {
+	width: 19rpx;
+	height: 18rpx;
+	margin-right: 5rpx;
+}
+
+.mate .cover .card .bar .handle .left .status {
+	position: absolute;
+	left: 67rpx;
+	top: 67rpx;
+	width: 20rpx;
+	height: 20rpx;
+	border-radius: 50%;
+}
+
+.mate .cover .card .bar .handle .right {
+	position: relative;
+}
+
+.mate .cover .card .bar .handle .right .count {
+	position: relative;
+	top: -14px;
+	left: 11px;
+	width: 31rpx;
+	height: 31rpx;
+	font-size: 25rpx;
+	line-height: 17px;
+	background: #F55433;
+	border-radius: 50%;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+
+.mate .cover .card .bar .handle .right .msg,
+.mate .cover .card .bar .handle .right .call {
+	width: 84rpx;
+	height: 84rpx;
+	margin-right: 17rpx;
+}
+
+.mate .cover .position {
+	box-sizing: border-box;
+	width: 680rpx;
+	background: #332F30;
+	border-radius: 30rpx;
+	margin-top: 17rpx;
+	padding: 27rpx 0 29rpx 33rpx;
+	font-size: 20rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+.mate .cover .position .time {
+	margin-bottom: 21rpx;
+}
+
+.mate .cover .position .time .activity-time {
+	flex: 1;
+}
+
+
+.mate .cover .position .time-icon,
+.mate .cover .position .address-icon {
+	width: 18rpx;
+	height: 18rpx;
+	margin-right: 16rpx;
+}
+
+.mate .cover .position .address-icon {
+	width: 15rpx;
+	height: 22rpx;
+}
+
+.mate .cover .btns {
+	margin-left: 12rpx;
+	margin-top: 42rpx;
+	margin-bottom: 20rpx;
+}
+
+.mate .cover .btns .cancel {
+	text-align: center;
+	width: 299rpx;
+	height: 97rpx;
+	line-height: 97rpx;
+	background: #EEEEEE;
+	border-radius: 49rpx;
+	font-size: 20rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #272233;
+}
+
+.mate .cover .btns .cancel .tag {
+	font-size: 32rpx;
+	margin-bottom: 6rpx;
+	margin-top: 15rpx;
+}
+
+.mate .cover .btns .submit {
+	width: 296rpx;
+	height: 97rpx;
+	line-height: 97rpx;
+	background: #FFF533;
+	border-radius: 49rpx;
+	font-size: 32rpx;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	color: #272233;
+}
+
+.mate .cover .btns .confirm {
+	width: 666rpx;
+	height: 97rpx;
+	background: #FFF533;
+	border-radius: 49rpx;
+	font-size: 32rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #272233;
+	line-height: 97rpx;
+}
+
+.mate .cover .btns .more-time {
+	width: 666rpx;
+	height: 97rpx;
+	line-height: 97rpx;
+	margin-top: 30rpx;
+	border-radius: 49rpx;
+	font-size: 32rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FFF;
+	background: #332F3060;
+}
+
+.mate .cover .confirmed {
+	text-align: center;
+	font-size: 32rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	margin-top: 74rpx;
+	margin-bottom: 100rpx;
+}
+
+.mate .cover .evaluate {
+	width: 666rpx;
+	height: 97rpx;
+	line-height: 97rpx;
+	margin-top: 50rpx;
+	background: #FFF533;
+	border-radius: 49rpx;
+	font-size: 32rpx;
+	color: #272233;
+}
+
+.mate .current-position {
+	margin: 40rpx 30rpx 0 30rpx;
+	height: 85rpx;
+	background: #000000;
+	opacity: 0.4;
+	border-radius: 20rpx;
+	padding: 30rpx 40rpx 32rpx 50rpx;
+	justify-content: space-between;
+	font-size: 24rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+.mate .current-position .update {
+	width: 35rpx;
+	height: 31rpx;
+}
+
+
+.mate .ac-time {
+	width: 100%;
+	padding: 24rpx 20rpx 53rpx 26rpx;
+	background: #332F30;
+	border-radius: 20rpx;
+	color: #FFF;
+	margin-bottom: 37rpx;
+	margin-top: 30rpx;
+}
+
+.mate .ac-time .title {
+	margin-top: 28rpx;
+	font-size: 24rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+
+.mate .ac-time .title .line-yellow {
+	width: 5rpx;
+	height: 24rpx;
+	margin-right: 9rpx;
+}
+
+.mate .ac-time .info .date {
+	margin-top: 40rpx;
+	font-size: 20rpx;
+}
+
+.mate .ac-time .info .date .input {
+	width: 80rpx;
+	height: 60rpx;
+	line-height: 60rpx;
+	text-align: center;
+	border: 2px solid #C6C6C6;
+	border-radius: 10rpx;
+	margin: 0 12rpx;
+}
+
+.mate .ac-time .info .select-time {
+	margin: 25rpx 0 36rpx 12rpx;
+	font-size: 20rpx;
+}
+
+.mate .ac-time .info .select-time .input {
+	width: 160rpx;
+	height: 60rpx;
+	line-height: 60rpx;
+	border: 2px solid #C6C6C6;
+	border-radius: 10rpx;
+	margin-right: 18rpx;
+	text-align: center;
+}
+
+.mate .ac-time .info .select-time .pm-am {
+	width: 60rpx;
+	height: 60rpx;
+	line-height: 60rpx;
+	border: 2px solid #C6C6C6;
+	border-radius: 10rpx;
+	text-align: center;
+}
+
+.mate .ac-address {
+	width: 90%;
+	height: 70rpx;
+	border: 2px solid #CECECE;
+	border-radius: 10rpx;
+	margin: 28rpx 18rpx 23rpx 0;
+	font-size: 20rpx;
+}
+
+.mate .ac-address .pi {
+	width: 22rpx;
+	height: 29rpx;
+	margin-right: 29rpx;
+	margin-left: 46rpx;
+}
+
+.mate .ac-address .desc {
+	font-size: 20rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFF;
+	width: 470rpx;
+	height: 38rpx;
+	line-height: 38rpx;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.mate .ac-address .right {
+	width: 15rpx;
+	height: 23rpx;
+}
+
+.mate .popup {
+	width: 575rpx;
+	height: 340rpx;
+	background: linear-gradient(112deg, #332F30, #140B2A);
+	border-radius: 30rpx;
+	color: #FFF;
+	text-align: center;
+}
+
+.mate .popup .title {
+	display: inline-block;
+	font-size: 30rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FFFEFE;
+	margin-top: 47rpx;
+	margin-bottom: 54rpx;
+}
+
+.mate .popup .btns {
+	margin-top: 64rpx;
+}
+
+.mate .popup .btns button {
+	width: 224rpx;
+	height: 75rpx;
+	line-height: 75rpx;
+	background: #EEEEEE;
+	border-radius: 38rpx;
+}
+
+.mate .popup .btns .confirm {
+	background: #FFF536;
+}
+
+.mate .cover .wait-comfirm .confirmed {
+	margin-bottom: 50rpx;
+}
+
+.mate .cover .wait-comfirm .cancel {
+	text-align: center;
+	width: 666rpx;
+	height: 97rpx;
+	background: #FFF536;
+	border-radius: 49rpx;
+	line-height: 97rpx;
+	border-radius: 49rpx;
+	font-size: 20rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #272233;
+}
+
+.mate .cover .wait-comfirm .cancel .tag {
+	font-size: 32rpx;
+	margin-bottom: 6rpx;
+	margin-top: 15rpx;
+}
+.z-index{
+	z-index: 9999;
+}

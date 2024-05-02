@@ -1,0 +1,31 @@
+.music-hover {
+	display: none;
+	position: absolute;
+	right: 30px;
+	z-index: 9999;
+	width: 200rpx;
+	bottom: 325rpx;
+	height: 180rpx;
+}
+
+.music-hover .image {
+	width: 134rpx;
+	height: 134rpx;
+	z-index: 9999;
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+}
+
+.music-hover .close {
+	position: relative;
+	right: -157rpx;
+	top: 0rpx;
+	width: 35rpx;
+	height: 35rpx;
+	z-index: 9999;
+}
+
+.show {
+	display: block;
+}

@@ -1,0 +1,131 @@
+
+ .item {
+	width: 100%;
+	height: 250rpx;
+}
+
+ .item .team-bg {
+	position: absolute;
+	width: 100%;
+	height: 250rpx;
+}
+
+ .item .info {
+	width: 100%;
+}
+
+ .item .info .cover {
+	width: 161rpx;
+	height: 161rpx;
+	border-radius: 20rpx;
+	margin-left: 26rpx;
+}
+
+ .item .info .content {
+	margin-left: 21rpx;
+	margin-right: 24rpx;
+}
+
+ .item .info .content .title {
+	font-size: 30rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FFFFFF;
+	margin-top: 13rpx;
+}
+
+ .item .info .content .cate {
+	margin-top: 10rpx;
+	font-size: 24rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+ .item .info .content .cate .level {
+	margin-right: 22rpx;
+}
+
+ .item .info .content .cate .pay-way {
+	margin-left: 15rpx;
+	margin-right: 17rpx;
+}
+
+ .item .info .content .cate .paibi {
+	margin-left: 16rpx;
+}
+
+ .item .info .content .cate .split-line-vertical {
+	width: 2rpx;
+	height: 17rpx;
+}
+
+ .item .info .content .cate .paibi image {
+	width: 39rpx;
+	height: 39rpx;
+	margin-right: 8rpx;
+}
+
+ .item .info .content .local {
+	align-items: flex-start;
+	margin-top: 17rpx;
+}
+
+ .item .info .content .local .map-icon {
+	margin-top: 5rpx;
+	margin-right: 7rpx;
+}
+
+ .item .info .content .local .address {
+	font-size: 22rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #A7A7A7;
+}
+
+ .item .info .time {
+	position: absolute;
+	right: 48rpx;
+	top: 6rpx;
+	width: 93rpx;
+	height: 93rpx;
+	border: 2px solid #EEEEEE;
+	background: linear-gradient(112deg, #ACFBEB, #FFFEB6);
+	border-radius: 50%;
+}
+
+ .item .info .time .box {
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-color: #150C24;
+}
+
+ .item .info .time .box .line {
+	width: 54rpx;
+	height: 2rpx;
+	background: linear-gradient(112deg, #ACFBEB, #FFFEB6);
+	margin: 3rpx 0;
+}
+
+ .item .info .time .box .month,
+ .item .info .time .box .day {
+	font-size: 26rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #A7A7A7;
+
+	background: linear-gradient(112deg, #ACFBEB 0%, #FFFEB6 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+ .item .gender {
+	position: absolute;
+	left: 160rpx;
+	top: 140rpx;
+	width: 36rpx;
+	height: 36rpx;
+}

@@ -1,0 +1,32 @@
+.progress {
+	width: 100%;
+}
+
+.line {
+	height: 31rpx;
+	border-radius: 16rpx;
+}
+
+.progress>.line {
+	width: 100%;
+	background: #FFFEEB;
+	opacity: 0.47;
+}
+
+.progress-active{
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+
+.progress-active>.line {
+	background: #FFF533;
+}
+
+.progress text {
+	font-size: 18rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+	margin-left: 8rpx;
+}

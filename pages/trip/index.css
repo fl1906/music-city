@@ -1,0 +1,181 @@
+page{
+	min-height: 100%;
+	background: #150C24;
+}
+.trip {
+	width: 100%;
+	height: 100%;
+	min-height: 100vh;
+	padding: 68rpx 36rpx;
+	background: #150C24;
+}
+
+.trip .items {
+	height: 100%;
+	overflow: auto;
+	margin-top: 52rpx;
+	flex-wrap: wrap;
+	gap: 20rpx;
+}
+
+.trip .items .item {
+	gap: 33rpx;
+	width: 329rpx;
+	height: 421rpx;
+	text-align: center;
+}
+
+.trip .items .item .trip-bg {
+	position: absolute;
+	left: 0;
+	width: 329rpx;
+	height: 421rpx;
+}
+
+.trip .items .item .user {
+	align-items: flex-end;
+	justify-content: center;
+	margin-top: 74rpx;
+	height: 140rpx;
+}
+
+.trip .items .item .user image {
+	position: absolute;
+	width: 120rpx;
+	height: 120rpx;
+	border-radius: 50%;
+	z-index: 99;
+}
+
+.trip .items .item .user image:first-child {
+	left: 59rpx;
+}
+
+.trip .items .item .user image:last-child {
+	left: 158rpx;
+	border: 1px solid #372F44;
+}
+
+.trip .items .item .user .link-icon-yellow {
+	left: 141rpx;
+	z-index: 100;
+	left: 141rpx;
+	top: 84rpx;
+	width: 51rpx;
+	height: 35rpx;
+}
+
+.trip .items .item .title {
+	font-size: 28rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+
+.trip .items .item .info {
+	justify-content: center;
+	gap: 15rpx;
+	margin-top: 9rpx;
+}
+
+.trip .items .item .info .level {
+	font-size: 20rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+.trip .items .item .info .split-white {
+	width: 3rpx;
+	height: 17rpx;
+}
+
+.trip .items .item .info .paibi {
+	font-size: 20rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+	gap: 10rpx;
+}
+
+.trip .items .item .info .paibi .paibi-icon {
+	width: 35rpx;
+	height: 35rpx;
+}
+
+.trip .items .item .to-ac button {
+	width: 230rpx;
+	height: 60rpx;
+	background: #FFF533;
+	border-radius: 30rpx;
+	font-size: 22rpx;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	color: #372F44;
+	margin-top: 24rpx;
+}
+
+.trip .teamCard {
+	flex-direction: column;
+	gap: 41rpx;
+	margin-top: 54rpx;
+}
+
+.trip .teamCard .item {
+	width: 100%;
+}
+
+.trip .apply {
+	margin-top: 54rpx;
+}
+
+.trip .apply .item .info {
+	gap: 17rpx;
+}
+
+.trip .apply .item .info .avatar {
+	width: 93rpx;
+	height: 93rpx;
+	border-radius: 50%;
+}
+
+.trip .apply .item .info .name {
+	font-size: 30rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+
+.trip .apply .item .info .type {
+	font-size: 26rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #BABABA;
+    width: 400rpx;
+	margin-top: 12rpx;
+}
+
+.trip .apply .item button {
+	width: 124rpx;
+	height: 61rpx;
+	background: #FFF533;
+	border-radius: 31rpx;
+	font-size: 26rpx;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	color: #150C24;
+}
+
+.trip .apply .split-line {
+	width: 100%;
+	height: 1rpx;
+	margin-top: 35rpx;
+	margin-bottom: 38rpx;
+}
+
+.trip .apply .msg {
+	color: #BABABA;
+	padding: 14rpx;
+	background: #1d1131;
+	margin-top: 10rpx;
+}

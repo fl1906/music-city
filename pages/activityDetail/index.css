@@ -1,0 +1,407 @@
+.acd {
+	width: 100%;
+	height: 100%;
+	min-height: 100vh;
+	background: #150C24;
+	padding: 46rpx 31rpx 180rpx;
+}
+
+.acd>.cover {
+	width: 100%;
+	height: 686rpx;
+	background: #9B9B9B;
+}
+
+.acd>.info {
+	margin-top: 29rpx;
+}
+
+.acd>.info>.title {
+	font-size: 30rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FFF533;
+}
+
+
+.acd .info .sponsor {
+	font-size: 20rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #B4B4B4;
+	margin-top: 12rpx;
+	margin-bottom: 30rpx;
+}
+
+
+.acd .info .split-line image {
+	width: 100%;
+	height: 1rpx;
+}
+
+.acd .wh {
+	margin-top: 23rpx;
+	margin-bottom: 18rpx;
+}
+
+.acd .wh .time image {
+	width: 30rpx;
+	height: 28rpx;
+}
+
+.acd .wh .time .time-text {
+	display: inline-block;
+	width: 160rpx;
+	font-size: 23rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+	margin-left: 20rpx;
+}
+
+.acd .wh .split-line-vertical {
+	width: 1rpx;
+	height: 38rpx;
+}
+
+.acd .wh .position image {
+	width: 22rpx;
+	height: 32rpx;
+	margin-left: 12rpx;
+	margin-right: 13rpx;
+}
+
+.acd .wh .position .position-text {
+	font-size: 22rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+.acd .line {
+	width: 100%;
+	height: 1rpx;
+	border: 1px solid #FFFFFF;
+	opacity: 0.3;
+	margin-bottom: 50rpx;
+}
+
+.acd .cate {
+	margin-bottom: 58rpx;
+}
+
+.acd .cate .cate-title {
+	width: 113rpx;
+	font-size: 28rpx;
+	font-family: ZhenyanGB;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: linear-gradient(112deg, #ACFBEB 0%, #FFFEB6 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.acd .cate .cate-title-en {
+	font-size: 20rpx;
+	font-family: FZZhengHeiS-DB-GB;
+	font-weight: 400;
+	color: #FFFFFF;
+	margin-top: 7rpx;
+}
+
+.acd .cate .content.music {
+	gap: 35rpx;
+	margin-left: 38rpx;
+	margin-top: 30rpx;
+}
+
+.acd .cate .content.music .item {
+	width: 192rpx;
+	height: 53rpx;
+	border: 2px solid #FFFFFF;
+	border-radius: 15rpx;
+	font-size: 26rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+	justify-content: center;
+}
+
+.acd .cate .content.artist {
+	gap: 16rpx;
+	margin-top: 30rpx;
+	overflow: auto;
+}
+
+.acd .cate .content.artist .item image {
+	width: 147rpx;
+	height: 197rpx;
+	background: #FFFFFF;
+	border-radius: 10rpx;
+}
+
+.acd .cate .content.artist .item view {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 32rpx;
+	background: #15161A;
+	opacity: 0.62;
+	border-radius: 0rpx 0rpx 10rpx 10rpx;
+	font-size: 18rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+	padding: 5rpx 14rpx;
+}
+
+.acd .cate .content.venue {
+	gap: 41rpx;
+	margin-top: 23rpx;
+	overflow: auto;
+}
+
+.acd .cate .content.venue .item {
+	flex-direction: column;
+}
+
+.acd .cate .content.venue .item .cover {
+	width: 633rpx;
+	height: 333rpx;
+	border-radius: 20rpx;
+}
+
+.acd .cate .content.venue .item view {
+	width: 541rpx;
+	font-size: 22rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+	padding: 35rpx 0;
+}
+
+.acd .cate .content.more {
+	margin-top: 31rpx;
+	width: 656rpx;
+	font-size: 24rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+	text-indent: 2rem;
+	line-height: 40rpx;
+}
+
+.acd .cate .more-content {
+	font-size: 24rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFF533;
+	margin-top: 18rpx;
+}
+
+.acd .cate .tag {
+	color: #FFFFFF;
+	font-size: 24rpx;
+}
+
+.acd .cate .intro-more {
+	width: 633rpx;
+	height: 333rpx;
+	border-radius: 20rpx;
+	margin-top: 30rpx;
+}
+
+.acd .cate .content.more .item {
+	margin-left: 18rpx;
+	margin-bottom: 30rpx;
+}
+
+.acd .cate .content.more .item .cover {
+	width: 216rpx;
+	height: 165rpx;
+	border-radius: 20rpx;
+}
+
+.acd .cate .content.more .item .info {
+	margin-left: 37rpx;
+	margin-right: 62rpx;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 18rpx;
+}
+
+.acd .cate .content.more .item .info .title {
+	font-size: 28rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+.acd .cate .content.more .item .info .desc {
+	width: 229rpx;
+	font-size: 20rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+
+.acd .cate .content.more .item .handle {
+	flex-direction: column;
+	justify-content: center;
+	min-width: 75rpx;
+	height: 75rpx;
+	border: 1px solid #F4EA32;
+	border-radius: 50%;
+}
+
+.acd .cate .content.more .item .handle image {
+	width: 30rpx;
+	height: 30rpx;
+}
+
+.acd .cate .content.more .item .handle .count {
+	font-size: 20rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #F4EA32;
+}
+
+.acd .cate .content.ticket {
+	margin-top: 8rpx;
+}
+
+.acd .cate .content.ticket .info {
+	justify-content: space-between;
+	width: 100%;
+	padding: 60rpx;
+}
+
+.acd .cate .content.ticket .info .desc {
+	font-size: 28rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+.acd .cate .content.ticket .ticket-bg {
+	position: absolute;
+	width: 100%;
+	height: 148rpx;
+}
+
+.acd .cate .content.ticket .info .count {
+	font-size: 28rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFF536;
+	gap: 17rpx;
+}
+
+.acd .cate .content.ticket .info .count image {
+	width: 23rpx;
+	height: 23rpx;
+}
+
+
+.acd .cate .content.ticket .channel {
+	margin-top: 19rpx;
+	margin-left: 16rpx;
+	gap: 17rpx;
+}
+
+.acd .cate .content.ticket .channel .item {
+	flex-direction: column;
+	justify-content: center;
+	gap: 32rpx;
+	width: 208rpx;
+	height: 264rpx;
+	background: linear-gradient(112deg, #332F30, #140B2A);
+	border-radius: 30rpx;
+}
+
+.acd .cate .content.ticket .channel .item .qrcode-border {
+	width: 149rpx;
+	height: 135rpx;
+}
+
+.acd .cate .content.ticket .channel .item .qrcode {
+	width: 111rpx;
+	height: 111rpx;
+	position: absolute;
+	top: 41rpx;
+}
+
+.acd .cate .content.ticket .channel .item .logo {
+	max-width: 100rpx;
+	max-height: 40rpx;
+}
+
+.fix-bottom {
+	position: fixed;
+	width: 100%;
+	height: 180rpx;
+	bottom: 0;
+}
+
+.fix-bottom .activity-detail-bg {
+	position: absolute;
+	width: 104%;
+	height: 180rpx;
+	left: -7px;
+	bottom: -6px;
+}
+
+.fix-bottom .nav {
+	margin-left: 42rpx;
+	margin-right: 55rpx;
+}
+
+.fix-bottom .nav image {
+	width: 39rpx;
+	height: 36rpx;
+}
+
+.fix-bottom .nav view {
+	font-size: 20rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+.fix-bottom .share {
+	width: 150rpx;
+	height: 86rpx;
+	border: 2px solid #FFF533;
+	border-radius: 43rpx;
+	font-size: 30rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFF533;
+	background-color: transparent;
+}
+
+.fix-bottom .team-up {
+	width: 338rpx;
+	height: 86rpx;
+	line-height: 86rpx;
+	background: #FFF533;
+	border-radius: 43rpx;
+	font-size: 30rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #272233;
+}
+
+.artist-content {
+	width: 400rpx;
+	padding: 20rpx;
+	background: linear-gradient(112deg, #332F30, #140B2A);
+	color: #FFF;
+}
+
+.artist-content .title {
+	text-align: center;
+	margin-bottom: 30rpx;
+	font-size: 35rpx;
+}

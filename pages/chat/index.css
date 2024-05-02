@@ -1,0 +1,160 @@
+.chat {
+	width: 100%;
+	height: 100vh;
+	background: #150C24;
+	padding: 70rpx 34rpx;
+}
+
+.chat .msgs {
+	gap: 48rpx;
+	flex-wrap: wrap;
+	margin-top: 48rpx;
+}
+
+.chat .msgs .item {
+	width: 100%;
+	justify-content: space-between;
+}
+
+.chat .msgs .item .info {
+	gap: 22rpx;
+}
+
+.chat .msgs .item .count-time {
+    align-items: flex-end;
+	flex-direction: column;
+	gap: 20rpx;
+}
+
+.chat .msgs .item .count-time .time {
+	font-size: 22rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #79787D;
+}
+
+.chat .msgs .item .count-time .count {
+	width: 31rpx;
+	height: 31rpx;
+	background: #F55433;
+	border-radius: 50%;
+	font-size: 26rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FFFFFF;
+	justify-content: center;
+}
+
+.chat .msgs .item .info .avatar {
+	width: 92rpx;
+	height: 92rpx;
+	border-radius: 50%;
+}
+
+.chat .msgs .item .info .name-msg {
+}
+
+.chat .msgs .item .info .name-msg .name {
+	font-size: 28rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+
+.chat .msgs .item .info .name-msg .msg {
+	font-size: 27rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #79787D;
+	margin-top: 18rpx;
+}
+
+.chat .admin {
+	flex-direction: column;
+	gap: 50rpx;
+	margin-top: 49rpx;
+}
+
+.chat .admin .item {
+	width: 100%;
+	text-align: center;
+}
+
+.chat .admin .item .time {
+	font-size: 24rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #E2E2E2;
+	margin-bottom: 22rpx;
+}
+
+.chat .admin .item .content {
+	width: 100%;
+	background: linear-gradient(112deg, #332F30, #140B2A);
+	border-radius: 30rpx;
+}
+
+.chat .admin .item .content .title {
+	padding-top: 33rpx;
+	margin-left: 54rpx;
+	gap: 14rpx;
+}
+
+.chat .admin .item .content .title image {
+	width: 6rpx;
+	height: 28rpx;
+}
+
+.chat .admin .item .content .title {
+	font-size: 28rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FEFEFE;
+}
+
+.chat .admin .item .content .title text {
+	color: #FFF533;
+}
+
+.chat .admin .item .content .tip {
+	width: 534rpx;
+	font-size: 26rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FEFEFE;
+	text-align: left;
+	margin-left: 54rpx;
+	margin-top: 37rpx;
+}
+
+.chat .admin .item .content .wh {
+	gap: 12rpx;
+	font-size: 24rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FEFEFE;
+	margin-left: 54rpx;
+	margin-top: 37rpx;
+}
+
+.chat .admin .item .content .wh .admin-avatar {
+	width: 37rpx;
+	height: 37rpx;
+}
+
+.chat .admin .item .content .split-line {
+	width: 95%;
+	height: 1rpx;
+	margin: 25rpx 0;
+}
+
+.chat .admin .item .content .btns {
+	gap: 250rpx;
+	justify-content: center;
+	font-size: 26rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FFF533;
+	padding-bottom: 32rpx;
+}

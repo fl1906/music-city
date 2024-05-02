@@ -1,0 +1,136 @@
+.create {
+	width: 100%;
+	height: 100%;
+	min-height: 100vh;
+	background: #150C24;
+	padding: 60rpx 32rpx 100rpx 37rpx;
+}
+
+.create .basic .avatar,
+.create .basic .info {
+	margin-left: 25rpx;
+}
+
+.create .basic .avatar {
+	width: 200rpx;
+	height: 200rpx;
+	border-radius: 10rpx;
+	margin: 25rpx 25rpx;
+}
+
+.create .basic .info {
+	flex-wrap: wrap;
+}
+
+.create .basic .info .item {
+	width: 300rpx;
+	font-size: 26rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+	margin-top: 60rpx;
+}
+
+.create .basic .info .item .level-icon-yellow {
+	width: 31rpx;
+	height: 26rpx;
+	margin-right: 13rpx;
+}
+
+.create .basic .info .item .gender-icon-yellow {
+	width: 30rpx;
+	height: 26rpx;
+	margin-right: 13rpx;
+}
+
+.create .basic .info .item .ac-age-icon {
+	width: 34rpx;
+	height: 32rpx;
+	margin-right: 8rpx;
+}
+
+.create .basic .info .item .region-icon-yellow {
+	width: 32rpx;
+	height: 32rpx;
+	margin-right: 16rpx;
+}
+
+.create .basic .info .item .level {
+	margin-right: 20rpx;
+}
+
+.create .basic .info .item.region .level {
+	margin-right: 11rpx;
+}
+
+.create .ac-info {
+	margin-top: 31rpx;
+	margin-left: 13rpx;
+}
+
+.create .ac-address.info {
+	height: 70rpx;
+	border: 2px solid #CECECE;
+	border-radius: 10rpx;
+	margin: 45rpx 18rpx 23rpx 0;
+}
+
+.create .ac-address .pi {
+	width: 22rpx;
+	height: 29rpx;
+	margin-right: 29rpx;
+	margin-left: 46rpx;
+}
+
+.create .ac-address .desc {
+	font-size: 26rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #656367;
+	width: 393rpx;
+	height: 38rpx;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.create .ac-address .right {
+	width: 15rpx;
+	height: 23rpx;
+}
+
+.create .info .right {
+	position: absolute;
+	right: 45rpx;
+}
+
+.create .ac-auth {
+	justify-content: center;
+	margin-bottom: 53rpx;
+}
+
+.create .ac-auth .right {
+	width: 23rpx;
+	height: 15rpx;
+}
+
+.create .ac-auth.info {
+	height: 70rpx;
+	border: 2px solid #CECECE;
+	border-radius: 10rpx;
+	margin: 45rpx 18rpx 23rpx 0;
+}
+
+.create .submit {
+	position: sticky;
+	margin-top: 50rpx;
+	width: 665rpx;
+	height: 97rpx;
+	background: #FFF533;
+	border-radius: 48rpx;
+	font-size: 32rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #272233;
+	justify-content: center;
+}

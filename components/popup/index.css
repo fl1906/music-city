@@ -1,0 +1,64 @@
+.popup {
+	width: 575rpx;
+	background: #332F30;
+	border-radius: 30rpx;
+	color: #FFF;
+	text-align: center;
+	padding-bottom: 35rpx;
+}
+
+.mask {
+	position: absolute;
+	top: 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	z-index: 8888;
+	width: 100%;
+	height: 100vh;
+}
+
+.hide {
+	display: none;
+}
+
+.popup .title {
+	display: inline-block;
+	font-size: 30rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FFFEFE;
+	margin-top: 47rpx;
+	margin-bottom: 54rpx;
+}
+
+.popup .content {
+	display: none;
+	text-align: left;
+	margin-left: 90rpx;
+}
+
+.popup .content.show{
+	display: block;
+}
+
+.popup .content cover-view{
+	margin-bottom: 20rpx;
+}
+
+.popup .btns {
+	margin-top: 64rpx;
+}
+
+.popup .btns button {
+	width: 224rpx;
+	height: 75rpx;
+	line-height: 75rpx;
+	background: #EEEEEE;
+	border-radius: 38rpx;
+}
+
+.popup .btns .confirm {
+	background: #FFF536;
+}

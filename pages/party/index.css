@@ -1,0 +1,126 @@
+.party {
+	width: 100%;
+	height: 100%;
+	min-height: 100vh;
+	background: #150C24;
+	padding: 46rpx 41rpx;
+}
+
+
+.party .parties {
+	width: 100%;
+	height: 100%;
+	margin-top: 45rpx;
+	gap: 25rpx;
+	flex-wrap: wrap;
+}
+
+.party .search {
+	margin-bottom: 61rpx;
+	display: inherit;
+}
+
+.party .select-bar.u-flex {
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.party .select-bar .province,
+.party .select-bar .city,
+.party .select-bar .radio {
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 57rpx;
+}
+
+.party .select-bar .radio .u-flex {
+	gap: 58rpx;
+}
+
+.party .select-bar .province {
+	margin-right: 80rpx;
+}
+
+.party .select-bar .city {
+	margin-right: 135rpx;
+}
+
+.party .select-bar .item.active {
+	color: #FFF533;
+}
+
+.party .parties .item {
+	justify-content: center;
+	flex-direction: column;
+	width: 321rpx;
+	height: 321rpx;
+	margin-bottom: 4rpx;
+}
+
+
+.party .parties .item .region-bg {
+	position: absolute;
+	width: 321rpx;
+	height: 321rpx;
+}
+
+.party .parties .item .region-bg-item {
+	position: absolute;
+	width: 321rpx;
+	height: 100rpx;
+}
+
+.party .parties .item .region-name {
+	font-size: 100rpx;
+	font-family: ZhenyanGB;
+	font-weight: 400;
+	color: #FFF533;
+	background: linear-gradient(112deg, #ACFBEB 0%, #FFFEB6 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.party .parties .item .text {
+	font-size: 30rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FFF533;
+	background: linear-gradient(112deg, #ACFBEB 0%, #FFFEB6 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	gap: 11rpx;
+	margin-top: 29rpx;
+}
+
+.party .parties .item .text image {
+	width: 28rpx;
+	height: 18rpx;
+}
+
+.party .parties .item .party-name {
+	font-size: 26rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFF533;
+	margin: 20rpx 0 0 20rpx;
+}
+
+.party .parties .item .date {
+	font-size: 22rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+	margin: 6px 0 10rpx 17rpx;
+}
+
+.party .parties .item .cover {
+	margin-top: 8rpx;
+	width: 321rpx;
+	height: 220rpx;
+	border-radius: 0rpx 0rpx 20rpx 20rpx;
+	z-index: 9999;
+}
+
+>>>.u-icon text {
+	color: #000 !important;
+}

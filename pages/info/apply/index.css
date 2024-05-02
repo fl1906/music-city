@@ -1,0 +1,43 @@
+.apply {
+	width: 100%;
+	height: 100%;
+	min-height: 100vh;
+	background: #150C24;
+	padding: 67rpx 35rpx 0 34rpx;
+}
+
+
+.apply .info {
+	padding-top: 34rpx ;
+}
+
+.apply .msg {
+	margin-bottom: 40rpx;
+}
+
+.apply .msg .msg-icon-yellow {
+	width: 33rpx;
+	height: 31rpx;
+	margin-right: 15rpx;
+}
+
+.apply .msg input {
+	height: 67rpx;
+	border: 2px solid #666168;
+	border-radius: 10rpx;
+	margin-top: 27rpx;
+	padding-left: 20rpx;
+}
+
+.apply .submit {
+	width: 100%;
+	height: 97rpx;
+	line-height: 97rpx;
+	background: #FFF533;
+	border-radius: 48rpx;
+	font-size: 32rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #272233;
+	margin-top: 106rpx;
+}

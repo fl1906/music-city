@@ -1,0 +1,103 @@
+.music {
+	width: 100%;
+	height: 100%;
+	min-height: 100vh;
+	background: #150C24;
+	padding: 46rpx 37rpx;
+}
+
+.tab {
+	display: block;
+	margin-top: 61rpx;
+	margin-left: 4rpx;
+}
+
+>>>.u-tabs-scorll-flex {
+	gap: 60rpx;
+	justify-content: flex-start !important;
+}
+
+>>>.u-tab-item {
+	flex: inherit !important;
+}
+
+.items {
+	display: block;
+	margin-top: 38rpx;
+}
+
+.items .item {
+	width: 683rpx;
+	height: 330rpx;
+	margin-bottom: 50rpx;
+}
+
+.items .item .music-bg-black {
+	position: absolute;
+	width: 683rpx;
+	height: 330rpx;
+}
+
+.items .item .title,
+.items .item .time {
+	margin-top: 25rpx;
+	margin-left: 23rpx;
+}
+
+.items .item .title {
+	display: inline-block;
+	font-size: 26rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFF533;
+}
+
+.items .item .time {
+	color: #FFF;
+}
+
+
+.items .item .time .line{
+	margin: 0 10rpx;
+}
+
+.items .item .time .day-bg {
+	width: 37rpx;
+	height: 20rpx;
+	margin-left: 11rpx;
+}
+
+.items .item .time .date {
+	font-size: 22rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+
+.items .item .time .day {
+	font-size: 13rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FFFFFF;
+	background-color: #21CFFF;
+	padding: 4rpx 8rpx;
+	margin-left: 11rpx;
+}
+
+.items .item .type {
+	width: 79rpx;
+	height: 60rpx;
+	position: absolute;
+	right: 57rpx;
+	top: 0;
+}
+
+.items .cover {
+	margin-top: 23rpx;
+}
+.items .cover image {
+	width: 100%;
+	height: 185rpx;
+	border-radius: 0rpx 0rpx 20rpx 20rpx;
+}

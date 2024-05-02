@@ -1,0 +1,92 @@
+page {
+	background-color: #150C24 !important;
+}
+
+.edit {
+	width: 100%;
+	height: 100%;
+	min-height: 100vh;
+	background: #150C24;
+	padding: 65rpx 35rpx;
+}
+
+
+.slot-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 16rpx;
+	width: 309rpx;
+	height: 309rpx;
+	border: 2px solid #656367;
+	border-radius: 20rpx;
+	color: #FFF;
+}
+
+.slot-btn image {
+	width: 57rpx;
+	height: 57rpx;
+}
+
+.upload {
+	gap: 32rpx;
+	margin: 52rpx 0 36rpx 4rpx;
+}
+
+.upload .avatar {
+	width: 309rpx;
+	height: 309rpx;
+	border: 2px solid #656367;
+}
+
+.card-title {
+	font-size: 30rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	color: #FFFFFF;
+	background: linear-gradient(112deg, #ACFBEB 0%, #FFFEB6 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin: 0 0 35rpx 6rpx;
+}
+
+.imgs {
+	width: 100%;
+	overflow-x: auto;
+	gap: 12rpx;
+	margin: 0 0 44rpx 7rpx;
+}
+
+.img-item {
+	justify-content: center;
+	min-width: 130rpx;
+	height: 125rpx;
+	border: 1px solid #656367;
+	border-radius: 10rpx;
+}
+
+.img-item.standrd image {
+	width: 100%;
+	height: 100%;
+}
+
+.img-item image {
+	width: 41rpx;
+	height: 42rpx;
+}
+
+.card {
+	width: 681rpx;
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.03) 100%);
+	border-radius: 30rpx;
+	margin-bottom: 40rpx;
+}
+
+>>>.u-cell__value {
+	color: #FFF !important;
+}
+
+>>>.u-cell {
+	color: #FFF !important;
+}

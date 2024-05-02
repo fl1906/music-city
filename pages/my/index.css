@@ -1,0 +1,257 @@
+page {
+	background-color: #051922;
+}
+
+.my {
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+	min-height: 100vh;
+	background-color: #140B2A;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+.wrap {
+	margin-left: 34rpx;
+	font-size: 42rpx;
+	color: white;
+}
+
+.head-bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 750rpx;
+	height: 564rpx;
+	background: linear-gradient(112deg, #332F30, #140B2A);
+}
+
+.login-info {
+	justify-content: space-between;
+	margin: 0 25rpx 0 33rpx;
+}
+
+.login-info .btn {
+	height: 56rpx;
+	border-radius: 28rpx;
+	font-size: 24rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	background-color: #332F30;
+	color: #FFF;
+	margin: 0;
+}
+
+.login-info .btn .edit-icon {
+	width: 20rpx;
+	height: 20rpx;
+	margin-right: 8rpx;
+}
+
+.avatar {
+	gap: 33rpx;
+}
+
+.avatar image {
+	border-radius: 50%;
+	width: 134rpx;
+	height: 134rpx;
+}
+
+.avatar .info {
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 19rpx;
+}
+
+.avatar .info.button {
+	background: transparent;
+	gap: 0;
+	border: none;
+}
+
+.avatar .info .title {
+	font-size: 36rpx;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+
+.avatar .info .desc {
+	font-size: 26rpx;
+	font-weight: 500;
+	color: #BABABA;
+}
+
+.grade {
+	justify-content: space-between;
+	margin: 088rpx 33rpx 0 30rpx;
+}
+
+.grade .grade-bg {
+	position: absolute;
+	width: 687rpx;
+	height: 180rpx;
+}
+
+.grade .grade-info {
+	font-size: 22rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #F3FAE2;
+	background: linear-gradient(110deg, #FFD069 0%, #FCDB9E 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-left: 49rpx;
+}
+
+.grade .level-info {
+	margin-bottom: 10rpx;
+}
+
+.grade .level-info .grade-icon {
+	width: 36rpx;
+	height: 35rpx;
+}
+
+.grade .level-info .level {
+	width: 100%;
+	font-size: 42rpx;
+	font-family: ZhenyanGB;
+	font-weight: bold;
+	font-style: italic;
+	color: #F3FAE2;
+	background: linear-gradient(112deg, #FFD069 0%, #FCDB9E 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-left: 10rpx;
+}
+
+.grade button {
+	width: 167rpx;
+	height: 56rpx;
+	border-radius: 28rpx;
+	font-size: 24rpx;
+	background: linear-gradient(112deg, #FFD069, #FCDB9E);
+	font-weight: 500;
+	color: #212224;
+	margin: 0 49rpx 0 0;
+}
+
+.bottom {
+	overflow: hidden;
+	margin-top: 20rpx;
+	width: 100%;
+}
+
+.bottom .my-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.bottom .about {
+	width: 327rpx;
+	height: 278rpx;
+	background: linear-gradient(112deg, #473748, #322A3D);
+	border-radius: 30rpx;
+	padding: 39rpx;
+	color: #F0DBF4;
+	margin: 44rpx 20rpx 0 33rpx;
+}
+
+.bottom .about .paibi {
+	width: 39rpx;
+	height: 39rpx;
+	margin-top: 12rpx;
+}
+
+
+.bottom .about .paibi-icon {
+	width: 45rpx;
+	height: 45rpx;
+}
+
+.bottom .about .my-pai {
+	margin-top: 60rpx;
+}
+
+.bottom .about .my-pai .flex {
+	gap: 10rpx;
+}
+
+.handle {
+	gap: 16rpx;
+	margin-top: 44rpx;
+}
+
+.nav,
+.history-active {
+	width: 331rpx;
+	height: 131rpx;
+	gap: 14rpx;
+	font-weight: 500;
+	border-radius: 30rpx;
+	padding-left: 36rpx;
+}
+
+.nav {
+	background: linear-gradient(112deg, #333C39, #2C3331);
+	color: #F3FAE2;
+}
+
+.history-active {
+	background: linear-gradient(112deg, #2A374C, #222B3A);
+	color: #BDDDFC;
+	margin-top: 16rpx;
+}
+
+.nav .nav-icon {
+	width: 39rpx;
+	height: 37rpx;
+}
+
+.history-active .history-active-img {
+	width: 33rpx;
+	height: 34rpx;
+}
+
+.card-bar {
+	width: 681rpx;
+	height: 470rpx;
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.03) 100%);
+	border-radius: 30rpx;
+	margin: 46rpx 35rpx 200rpx 34rpx;
+	padding: 25rpx 41rpx 44rpx 29rpx;
+}
+
+.card-bar .card-title {
+	font-size: 30rpx;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: linear-gradient(112deg, #ACFBEB 0%, #FFFEB6 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-bottom: 41rpx;
+}
+
+>>>.u-cell {
+	padding: 0 !important;
+	margin-bottom: 41rpx;
+}
+
+.card-bar .icon {
+	width: 29rpx;
+	height: 29rpx;
+	margin-right: 15rpx;
+}
+
+.card-bar .icon-order {
+	width: 22rpx;
+	height: 28rpx;
+	margin-right: 15rpx;
+}
