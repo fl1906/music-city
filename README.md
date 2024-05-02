@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <a href="https://github.com/fl1906/music-city/master/LICENSE"><img src="https://img.shields.io/github/license/zyronon/douyin" alt="License"></a>
+  <a href="https://github.com/fl1906/music-city/blob/master/LICENSE"><img src="https://img.shields.io/github/license/zyronon/douyin" alt="License"></a>
   <a><img src="https://img.shields.io/badge/SpringBoot-v2.7-pink"/></a>
   <a><img src="https://img.shields.io/badge/若依-基础框架-red"/></a>
   <a><img src="https://img.shields.io/badge/Satoken-v1.37.0-red"/></a>
@@ -13,6 +13,9 @@
 
 `派之城` 是一个微信音乐组队交友小程序，功能包括：发布音乐节活动、发布组队活动、城市组队匹配、聊天室、音乐播放、个人中心等。
 它基于 [`SpringBoot`](https://spring.io/projects/spring-boot)、[`若依`](https://ruoyi.vip/)、[`Vue`](https://cn.vuejs.org/)、[`Uniapp`](https://uniapp.dcloud.io/) 实现。使用了最新的 `SpringBoot` 全家桶技术栈。使用Mysql数据库存储，通过 `SpringBoot` 提供的接口返回数据，前端使用 `Vue` 和 `Uniapp` 实现。
+
+
+## 项目预览
 
 <div>
 <img width="150px" src='docs/imgs/1.png'/>
@@ -61,19 +64,23 @@ cd music-city
 打开HbuilderX，导入项目，运行到微信小程序
 
 ```bash
-git clone -b master --single-branch https://github.com/fl1906/music-city.git
+git clone -b uniapp --single-branch https://github.com/fl1906/music-city.git
 
 cd music-city-uniapp
 
 ```
 
 ## 致谢
+<div> 网易云音乐API ： https://binaryify.github.io/NeteaseCloudMusicApi/#/ </div>
+<p></p>
+<div> 高校查询接口 ： https://hn216.api.yesapi.cn/</div>
+<p></p>
+<div> 若依框架： https://ruoyi.vip/ </div>
+<p></p>
+<div>  Uniapp框架： https://uniapp.dcloud.io/ </div>
+<p></p>
+<div>  Satoken框架： https://sa-token.dev33.cn/ </div>
 
-网易云音乐API ： https://binaryify.github.io/NeteaseCloudMusicApi/#/
-高校查询接口 ： https://hn216.api.yesapi.cn/
-若依框架： https://ruoyi.vip/
-Uniapp框架： https://uniapp.dcloud.io/
-Satoken框架： https://sa-token.dev33.cn/
 
 ## 许可协议
 
