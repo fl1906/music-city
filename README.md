@@ -85,3 +85,9 @@ cd music-city-uniapp
 ## 许可协议
 
 [GPL](LICENSE)
+
+## 联系作者
+
+微信：fl1906
+
+<img  width="150px" src="https://img.flya.top/mac/202405022144221.png">
